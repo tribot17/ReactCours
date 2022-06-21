@@ -8,6 +8,7 @@ import Jean from "./Exercice/Jean";
 import Phillipe from "./Exercice/Phillipe";
 import App from "./App";
 import Api from "./Components/Api";
+import Meteo from "./pages/Meteo";
 
 const PageRouter = () => {
   return (
@@ -16,6 +17,7 @@ const PageRouter = () => {
         <Routes>
           <Route path="/App" element={<App />} />
           <Route path="/Api" element={<Api />} />
+          <Route path="/Meteo" element={<Meteo />} />
           <Route path="/" element={<Affichage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Jean-Luc" element={<JeanLuc />} />
