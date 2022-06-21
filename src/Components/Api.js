@@ -49,7 +49,7 @@ const Api = () => {
 
   return (
     <div>
-      <h1>Page API</h1>
+      <h1 style={{marginLeft:"25px"}}>Page API</h1>
 
       <input type={"text"} name="postal_code" onChange={handleInputChange} />
       <button onClick={handleSearch}>Chercher</button>
